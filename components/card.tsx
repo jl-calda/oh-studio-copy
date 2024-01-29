@@ -20,15 +20,15 @@ export const Card = ({ src, title, description }: CardProps) => {
           src={src}
           alt={title}
           fill
-          className={cn("rounded-lg object-cover")}
+          className={cn(styles.card_image)}
         />
       </AspectRatio>
 
       <div className={cn(styles.card_backdrop)}>
-        <div className="">{title}</div>
+        <div className={cn(styles.card_backdrop_title)}>{title}</div>
       </div>
-      <div className={cn(styles.card_button, "w-8 h-8 rounded-full bg-white")}>
-        <HiMiniArrowUpRight className={cn("absolute top-8")} />
+      <div className={cn(styles.card_button)}>
+        <HiMiniArrowUpRight className={cn("")} />
       </div>
     </div>
   );

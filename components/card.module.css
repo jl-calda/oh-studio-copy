@@ -1,56 +1,77 @@
 .card {
   position: relative;
+  cursor: pointer;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 .card_button {
-  animation: fadein 0.75s ease-in-out;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #fff;
+  cursor: pointer;
+  opacity: 0;
+
+  transition: transform 0.3s linear, opacity 0.3s linear, scale 0.3s linear;
+}
+
+.card_button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.card_button:hover {
+  scale: 1.1;
 }
 
 .card:hover .card_button {
-  animation: fadein;
-}
-
-.card:hover .card_backdrop {
   opacity: 1;
+  transform: translate(10px, -10px);
+  scale: 1.05;
 }
 
 .card_backdrop {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.35);
   opacity: 0;
+  border-radius: 12px;
+
+  transition: opacity 0.2s linear, backdrop-filter 0.2s linear;
 }
 
-@keyframes fadein {
-  @0% {
-    top: 32px;
-    right: 32px;
-    opacity: 0;
-  }
+.card:hover .card_backdrop {
+  opacity: 1;
+  backdrop-filter: blur(16px);
+}
 
-  @25% {
-    top: 24px;
-    right: 24px;
-    opacity: 0.5;
-  }
+.card_backdrop_title {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0;
 
-  @50% {
-    top: 16px;
-    right: 16px;
-    opacity: 0.85;
-  }
+  transition: opacity 0.2s linear;
+}
 
-  @75% {
-    top: 12px;
-    right: 12px;
-    opacity: 1.15;
-  }
-  @100% {
-    top: 8px;
-    right: 8px;
-    opacity: 1;
-  }
+.card:hover .card_backdrop_title {
+  opacity: 1;
 }
