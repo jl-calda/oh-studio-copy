@@ -3,6 +3,9 @@ import Image from "next/image";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { AspectRatio } from "./ui/aspect-ratio";
 
+import styles from "./card.module.css";
+import { cn } from "@/lib/utils";
+
 interface CardProps {
   src: string;
   title: string;
@@ -11,19 +14,21 @@ interface CardProps {
 
 export const Card = ({ src, title, description }: CardProps) => {
   return (
-    <div className="relative group overflow-hidden cursor-pointer">
+    <div className={cn(styles.card)}>
       <AspectRatio ratio={4 / 3}>
         <Image
           src={src}
           alt={title}
           fill
-          className="rounded-lg object-cover"
+          className={cn("rounded-lg object-cover")}
         />
       </AspectRatio>
 
-      <div className="opacity-0 group-hover:opacity-100 group-hover:block absolute top-0 right-0 h-full w-full bg-black/30 transition-[display] duration-500 rounded-lg backdrop-blur-sm">
-        <div className="top-5 left-5 absolute text-sm text-white">{title}</div>
-        <HiMiniArrowUpRight className="absolute top-20 right-20 group-hover:top-15 group-hover:right-15 text-white" />
+      <div className={cn(styles.card_backdrop)}>
+        <div className="">{title}</div>
+      </div>
+      <div className={cn(styles.card_button, "w-8 h-8 rounded-full bg-white")}>
+        <HiMiniArrowUpRight className={cn("absolute top-8")} />
       </div>
     </div>
   );
