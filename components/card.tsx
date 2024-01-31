@@ -3,7 +3,7 @@ import Image from "next/image";
 import { HiMiniArrowUpRight } from "react-icons/hi2";
 import { AspectRatio } from "./ui/aspect-ratio";
 
-import styles from "./card.module.css";
+import styles from "./card.module.scss";
 import { cn } from "@/lib/utils";
 
 interface CardProps {

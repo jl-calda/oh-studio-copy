@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  margin-inline: auto;
+  max-width: 900px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  span {
+    padding-inline: 2rem;
+    line-height: 1.25;
+    text-align: center;
+    font-family: var(--font-sans);
+    font-size: clamp(5rem, 5vw, 4em);
+    font-weight: var(--font-weight-6);
+
+    opacity: 0;
+    transform: translateY(50px);
+
+    animation: fadeIn cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-duration: 0.6s;
+    animation-timeline: view(contain);
+  }
+
+  ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-top: 3rem;
+
+    opacity: 0;
+    transform: translateY(100px);
+
+    animation: fadeIn linear forwards;
+    animation-delay: 0.5s;
+    animation-timeline: view(contain);
+    animation-duration: 0.4s;
+
+    li {
+      font-size: var(--font-size-1);
+      padding-inline: 0.75rem;
+      padding-block: 0.5rem;
+    }
+  }
+}
+
+.pill {
+  border-radius: var(--radius-3);
+  background-color: var(--gray-2);
+  background-image: linear-gradient(
+    to bottom right,
+    var(--gray-3),
+    var(--gray-1)
+  );
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

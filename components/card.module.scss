@@ -1,6 +1,15 @@
 .card {
   position: relative;
   cursor: pointer;
+
+  opacity: 0;
+  transform: translateY(200px);
+
+  animation: fadeIn cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  animation-timeline: view();
+  animation-range-start: -150px;
+  animation-range-end: 500px;
+  animation-iteration-count: 1;
 }
 
 .card_image {
@@ -22,14 +31,15 @@
   border-radius: 100%;
   background-color: #fff;
   cursor: pointer;
-  opacity: 0;
+  opacity: 0.5;
+  border: 1px solid #fff;
 
   transition: transform 0.3s linear, opacity 0.3s linear, scale 0.3s linear;
 }
 
 .card_button svg {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
 }
 
 .card_button:hover {
@@ -74,4 +84,11 @@
 
 .card:hover .card_backdrop_title {
   opacity: 1;
+}
+
+@keyframes fadeIn {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

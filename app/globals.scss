@@ -1,0 +1,18 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: min(100vw - 2rem, 1378px);
+  margin-inline: auto;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-fluid-0);
+  background-color: var(--white);
+  position: relative;
+}

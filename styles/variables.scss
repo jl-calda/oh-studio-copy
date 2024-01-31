@@ -1,0 +1,7 @@
+:root {
+  --gray-gradient: linear-gradient(
+    90deg,
+    hsl(var(--gray-3-hsl) / 30%),
+    hsl(var(--gray-6-hsl) / 30%)
+  );
+}

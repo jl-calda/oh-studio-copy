@@ -1,0 +1,15 @@
+.card_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: var(--size-fluid-2);
+
+  margin-top: 16rem;
+  margin-bottom: 12rem;
+}
+
+.main_wrapper {
+  padding-top: 24rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20rem;
+}

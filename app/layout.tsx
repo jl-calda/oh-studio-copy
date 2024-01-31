@@ -1,14 +1,16 @@
 import type { Metadata } from "next";
-import { Urbanist } from "next/font/google";
 
-import "./globals.css";
-import { cn } from "@/lib/utils";
-import { NavigationPill } from "@/components/navigation-pill";
+import "./globals.scss";
+import "@/styles/variables.scss";
 
-const font = Urbanist({
-  subsets: ["latin"],
-  weight: ["100", "200", "400", "500", "600", "700"],
-});
+import "open-props/style";
+import "open-props/colors-hsl";
+import "open-props/animations";
+import "open-props/easings";
+
+import { NavPill } from "@/components/nav-pill";
+import { BotInset } from "@/components/insets/bot-inset";
+import { TopInset } from "@/components/insets/top-inset";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,9 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(font.className, "container mx-auto")}>
-        <NavigationPill />
+      <body>
+        {/* <TopInset /> */}
+        <NavPill />
         <div className="">{children}</div>
+        {/* <BotInset /> */}
       </body>
     </html>
   );
