@@ -21,8 +21,9 @@
 
     animation: grow cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
     animation-timeline: view();
-    animation-range-start: 250px;
-    animation-range-end: 350px;
+    animation-delay: 1s;
+    animation-range-start: 150px;
+    animation-range-end: 300px;
   }
 }
 

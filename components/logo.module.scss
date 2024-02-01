@@ -1,0 +1,87 @@
+.logo {
+  // border: black 1px solid;
+  display: block;
+  min-width: var(--size-6);
+  min-height: var(--size-6);
+
+  div {
+    position: relative;
+  }
+}
+
+.icon {
+  position: absolute;
+  width: var(--size-6);
+  height: var(--size-6);
+}
+
+.icon_1 {
+  animation: spin 4s linear infinite;
+}
+
+.icon_2 {
+  animation: spin2 5s linear infinite;
+  animation-delay: 1.5s;
+}
+
+.icon_3 {
+  animation: spin3 6s linear infinite;
+  animation-delay: 3.5s;
+}
+
+@keyframes spin {
+  0% {
+    opacity: 0;
+    transform: rotate(120deg);
+    scale: 0.85;
+  }
+
+  33% {
+    opacity: 1;
+    transform: rotate(240deg);
+    scale: 1;
+  }
+  100% {
+    opacity: 0.5;
+    transform: rotate(360deg);
+    scale: 1.1;
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    opacity: 0.5;
+    transform: rotate(120deg);
+    scale: 1.1;
+  }
+
+  33% {
+    opacity: 0;
+    transform: rotate(240deg);
+    scale: 0.85;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(360deg);
+    scale: 1;
+  }
+}
+
+@keyframes spin3 {
+  0% {
+    opacity: 1;
+    transform: rotate(120deg);
+    scale: 1;
+  }
+
+  33% {
+    opacity: 0.5;
+    transform: rotate(240deg);
+    scale: 1.1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg);
+    scale: 0.85;
+  }
+}

@@ -4,6 +4,7 @@ export const data: Data[] = [
     data: {
       text: {
         name: "Tabletus",
+        status: "May 2018 - June 2018",
         description:
           "Tabletus is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
         details: {
@@ -16,15 +17,26 @@ export const data: Data[] = [
         },
       },
       images: {
-        thumbnail: "/images/tablet/thumbnail.jpg",
-        artist: "/images/tablet/artist.jpg",
-        carry: "/images/tablet/carry.jpg",
-        collaboration: "/images/tablet/collaboration.jpg",
-        communication: "/images/tablet/communication.jpg",
-        handy: "/images/tablet/handy.jpg",
-        minimal: "/images/tablet/minimal.jpg",
-        reading: "/images/tablet/reading.jpg",
-        tablet: "/images/tablet/tablet.jpg",
+        thumbnail: "/images/tablet/thumbnail.webp",
+        artist: "/images/tablet/artist.webp",
+        carry: "/images/tablet/carry.webp",
+        collaboration: "/images/tablet/collaboration.webp",
+        communication: "/images/tablet/communication.webp",
+        handy: "/images/tablet/handy.webp",
+        minimal: "/images/tablet/minimal.webp",
+        reading: "/images/tablet/reading.webp",
+        tablet: "/images/tablet/tablet.webp",
+      },
+      lowres: {
+        thumbnail: "/images/lowres/tablet/thumbnail.webp",
+        artist: "/images/lowres/tablet/artist.webp",
+        carry: "/images/lowres/tablet/carry.webp",
+        collaboration: "/images/lowres/tablet/collaboration.webp",
+        communication: "/images/lowres/tablet/communication.webp",
+        handy: "/images/lowres/tablet/handy.webp",
+        minimal: "/images/lowres/tablet/minimal.webp",
+        reading: "/images/lowres/tablet/reading.webp",
+        tablet: "/images/lowres/tablet/tablet.webp",
       },
     },
   },
@@ -33,6 +45,7 @@ export const data: Data[] = [
     data: {
       text: {
         name: "Phonelulu",
+        status: "May 2018 - June 2018",
         description:
           "Phonelulu is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
         details: {
@@ -45,15 +58,26 @@ export const data: Data[] = [
         },
       },
       images: {
-        collaboration: "/images/iphone/collaboration.jpg",
-        iphone: "/images/iphone/iphone.jpg",
-        laptop: "/images/iphone/laptop.jpg",
-        music: "/images/iphone/music.jpg",
-        pay: "/images/iphone/pay.jpg",
-        photo: "/images/iphone/photo.jpg",
-        thumbnail: "/images/iphone/thumbnail.jpg",
-        study: "/images/iphone/study.jpg",
-        videocall: "/images/iphone/videocall.jpg",
+        collaboration: "/images/iphone/collaboration.webp",
+        iphone: "/images/iphone/iphone.webp",
+        laptop: "/images/iphone/laptop.webp",
+        music: "/images/iphone/music.webp",
+        pay: "/images/iphone/pay.webp",
+        photo: "/images/iphone/photo.webp",
+        thumbnail: "/images/iphone/thumbnail.webp",
+        study: "/images/iphone/study.webp",
+        videocall: "/images/iphone/videocall.webp",
+      },
+      lowres: {
+        collaboration: "/images/lowres/iphone/collaboration.webp",
+        iphone: "/images/lowres/iphone/iphone.webp",
+        laptop: "/images/lowres/iphone/laptop.webp",
+        music: "/images/lowres/iphone/music.webp",
+        pay: "/images/lowres/iphone/pay.webp",
+        photo: "/images/lowres/iphone/photo.webp",
+        thumbnail: "/images/lowres/iphone/thumbnail.webp",
+        study: "/images/iphone/study.webp",
+        videocall: "/images/lowres/iphone/videocall.webp",
       },
     },
   },
@@ -62,6 +86,7 @@ export const data: Data[] = [
     data: {
       text: {
         name: "Projectoro",
+        status: "May 2018 - June 2018",
         description:
           "Projectoro is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
         details: {
@@ -74,15 +99,26 @@ export const data: Data[] = [
         },
       },
       images: {
-        bar: "/images/projector/bar.jpg",
-        boy: "/images/projector/boy.jpg",
-        girl: "/images/projector/girl.jpg",
-        living: "/images/projector/living.jpg",
-        love: "/images/projector/love.jpg",
-        projector: "/images/projector/projector.jpg",
-        seminar: "/images/projector/seminar.jpg",
-        thumbnail: "/images/projector/thumbnail.jpg",
-        videogirl: "/images/projector/videogirl.jpg",
+        bar: "/images/projector/bar.webp",
+        boy: "/images/projector/boy.webp",
+        girl: "/images/projector/girl.webp",
+        living: "/images/projector/living.webp",
+        love: "/images/projector/love.webp",
+        projector: "/images/projector/projector.webp",
+        seminar: "/images/projector/seminar.webp",
+        thumbnail: "/images/projector/thumbnail.webp",
+        videogirl: "/images/projector/videogirl.webp",
+      },
+      lowres: {
+        bar: "/images/lowres/projector/bar.webp",
+        boy: "/images/lowres/projector/boy.webp",
+        girl: "/images/lowres/projector/girl.webp",
+        living: "/images/lowres/projector/living.webp",
+        love: "/images/lowres/projector/love.webp",
+        projector: "/images/lowres/projector/projector.webp",
+        seminar: "/images/lowres/projector/seminar.webp",
+        thumbnail: "/images/lowres/projector/thumbnail.webp",
+        videogirl: "/images/lowres/projector/videogirl.webp",
       },
     },
   },
@@ -91,6 +127,7 @@ export const data: Data[] = [
     data: {
       text: {
         name: "Food Drama",
+        status: "May 2018 - June 2018",
         description:
           "Food Drama is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
         details: {
@@ -103,26 +140,115 @@ export const data: Data[] = [
         },
       },
       images: {
-        thumbnail: "/images/food/thumbnail.jpg",
-        avocado: "/images/food/avocado.jpg",
-        blender: "/images/food/blender.jpg",
-        chicken: "/images/food/chicken.jpg",
-        cucumber: "/images/food/cucumber.jpg",
-        drinks: "/images/food/drinks.jpg",
-        orange: "/images/food/orange.jpg",
-        pepper: "/images/food/pepper.jpg",
-        plate: "/images/food/plate.jpg",
-        ref: "/images/food/ref.jpg",
+        thumbnail: "/images/food/thumbnail.webp",
+        avocado: "/images/food/avocado.webp",
+        blender: "/images/food/blender.webp",
+        chicken: "/images/food/chicken.webp",
+        cucumber: "/images/food/cucumber.webp",
+        drinks: "/images/food/drinks.webp",
+        orange: "/images/food/orange.webp",
+        pepper: "/images/food/pepper.webp",
+        plate: "/images/food/plate.webp",
+        ref: "/images/food/ref.webp",
+      },
+      lowres: {
+        thumbnail: "/images/lowres/food/thumbnail.webp",
+        avocado: "/images/lowres/food/avocado.webp",
+        blender: "/images/lowres/food/blender.webp",
+        chicken: "/images/lowres/food/chicken.webp",
+        cucumber: "/images/lowres/food/cucumber.webp",
+        drinks: "/images/lowres/food/drinks.webp",
+        orange: "/images/lowres/food/orange.webp",
+        pepper: "/images/lowres/food/pepper.webp",
+        plate: "/images/lowres/food/plate.webp",
+        ref: "/images/lowres/food/ref.webp",
       },
     },
   },
   {
-    name: "tabletus",
+    name: "Maandres",
     data: {
       text: {
-        name: "Tabletus",
+        name: "Maandres",
+        status: "May 2018 - June 2018",
         description:
-          "Tabletus is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
+          "Maandres is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
+        details: {
+          client: "Maandres",
+          date: "2021",
+          role: "UX/UI Designer",
+          focus: "UX/UI Design, Prototyping",
+          overview:
+            "I have extensive experience working with Tabletus, a tablet management system. As a UX/UI Designer, I have been involved in designing and prototyping various features for Tabletus. My role includes creating intuitive user interfaces, conducting user research, and ensuring a seamless user experience. Working on Tabletus has allowed me to enhance my skills in UX/UI design and contribute to the success of the product.",
+        },
+      },
+      images: {
+        thumbnail: "/images/clothing/thumbnail.mp4",
+        closet: "/images/clothing/closet.webp",
+        clothes: "/images/clothing/clothes.webp",
+        collar: "/images/clothing/collar.webp",
+        hands: "/images/clothing/hands.webp",
+        man: "/images/clothing/man.webp",
+        minimal: "/images/clothing/minimal.webp",
+        mandressing: "/images/clothing/mandressing.webp",
+        pair: "/images/clothing/pair.webp",
+        phonebooth: "/images/clothing/phonebooth.webp",
+        winter: "/images/clothing/winter.webp",
+      },
+      lowres: {
+        thumbnail: "/images/lowres/clothing/thumbnail.mp4",
+        closet: "/images/lowres/clothing/closet.webp",
+        clothes: "/images/lowres/clothing/clothes.webp",
+        collar: "/images/lowres/clothing/collar.webp",
+        hands: "/images/lowres/clothing/hands.webp",
+        man: "/images/lowres/clothing/man.webp",
+        minimal: "/images/lowres/clothing/minimal.webp",
+        mandressing: "/images/lowres/clothing/mandressing.webp",
+        pair: "/images/lowres/clothing/pair.webp",
+        phonebooth: "/images/lowres/clothing/phonebooth.webp",
+        winter: "/images/lowres/clothing/winter.webp",
+      },
+    },
+  },
+  {
+    name: "Coachchilla",
+    data: {
+      text: {
+        name: "Coachchilla",
+        status: "May 2018 - June 2018",
+        description:
+          "Coachchilla is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
+        details: {
+          client: "Coachchilla",
+          date: "2021",
+          role: "UX/UI Designer",
+          focus: "UX/UI Design, Prototyping",
+          overview:
+            "I have extensive experience working with Tabletus, a tablet management system. As a UX/UI Designer, I have been involved in designing and prototyping various features for Tabletus. My role includes creating intuitive user interfaces, conducting user research, and ensuring a seamless user experience. Working on Tabletus has allowed me to enhance my skills in UX/UI design and contribute to the success of the product.",
+        },
+      },
+      images: {
+        thumbnail: "/images/chair/thumbnail.jpg",
+        black: "/images/chair/black.jpg",
+        brown: "/images/chair/brown.jpg",
+        classic: "/images/chair/classic.jpg",
+        cozy: "/images/chair/cozy.jpg",
+        modern: "/images/chair/modern.jpg",
+        office: "/images/chair/office.jpg",
+        outdoor: "/images/chair/outdoor.jpg",
+        single: "/images/chair/single.jpg",
+        whitelong: "/images/chair/whitelong.jpg",
+      },
+    },
+  },
+  {
+    name: "KapeBarako",
+    data: {
+      text: {
+        name: "KapeBarako",
+        status: "May 2018 - June 2018",
+        description:
+          "KapeBarako is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
         details: {
           client: "Tabletus",
           date: "2021",
@@ -133,27 +259,29 @@ export const data: Data[] = [
         },
       },
       images: {
-        thumbnail: "/images/tablet/thumbnail.jpg",
-        artist: "/images/tablet/artist.jpg",
-        carry: "/images/tablet/carry.jpg",
-        collaboration: "/images/tablet/collaboration.jpg",
-        communication: "/images/tablet/communication.jpg",
-        handy: "/images/tablet/handy.jpg",
-        minimal: "/images/tablet/minimal.jpg",
-        reading: "/images/tablet/reading.jpg",
-        tablet: "/images/tablet/tablet.jpg",
+        beans: "/images/coffee/beans.jpg",
+        cafe: "/images/coffee/cafe.jpg",
+        coffee: "/images/coffee/coffee.jpg",
+        drip: "/images/coffee/drip.jpg",
+        fresh: "/images/coffee/fresh.jpg",
+        grind: "/images/coffee/grind.jpg",
+        pour: "/images/coffee/pour.jpg",
+        sharing: "/images/coffee/sharing.jpg",
+        two: "/images/coffee/two.jpg",
+        thumbnail: "/images/coffee/thumbnail.jpg",
       },
     },
   },
   {
-    name: "tabletus",
+    name: "Fatuburn",
     data: {
       text: {
-        name: "Tabletus",
+        name: "Fatuburn",
+        status: "May 2018 - June 2018",
         description:
-          "Tabletus is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
+          "Fatuburn is a mobile app that allows users to buy and sell used phones. It is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
         details: {
-          client: "Tabletus",
+          client: "Fatuburn",
           date: "2021",
           role: "UX/UI Designer",
           focus: "UX/UI Design, Prototyping",
@@ -162,88 +290,33 @@ export const data: Data[] = [
         },
       },
       images: {
-        thumbnail: "/images/tablet/thumbnail.jpg",
-        artist: "/images/tablet/artist.jpg",
-        carry: "/images/tablet/carry.jpg",
-        collaboration: "/images/tablet/collaboration.jpg",
-        communication: "/images/tablet/communication.jpg",
-        handy: "/images/tablet/handy.jpg",
-        minimal: "/images/tablet/minimal.jpg",
-        reading: "/images/tablet/reading.jpg",
-        tablet: "/images/tablet/tablet.jpg",
-      },
-    },
-  },
-  {
-    name: "tabletus",
-    data: {
-      text: {
-        name: "Tabletus",
-        description:
-          "Tabletus is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
-        details: {
-          client: "Tabletus",
-          date: "2021",
-          role: "UX/UI Designer",
-          focus: "UX/UI Design, Prototyping",
-          overview:
-            "I have extensive experience working with Tabletus, a tablet management system. As a UX/UI Designer, I have been involved in designing and prototyping various features for Tabletus. My role includes creating intuitive user interfaces, conducting user research, and ensuring a seamless user experience. Working on Tabletus has allowed me to enhance my skills in UX/UI design and contribute to the success of the product.",
-        },
-      },
-      images: {
-        thumbnail: "/images/tablet/thumbnail.jpg",
-        artist: "/images/tablet/artist.jpg",
-        carry: "/images/tablet/carry.jpg",
-        collaboration: "/images/tablet/collaboration.jpg",
-        communication: "/images/tablet/communication.jpg",
-        handy: "/images/tablet/handy.jpg",
-        minimal: "/images/tablet/minimal.jpg",
-        reading: "/images/tablet/reading.jpg",
-        tablet: "/images/tablet/tablet.jpg",
-      },
-    },
-  },
-  {
-    name: "tabletus",
-    data: {
-      text: {
-        name: "Tabletus",
-        description:
-          "Tabletus is designed to be easy to use and intuitive, so you can focus on what matters most: your business.",
-        details: {
-          client: "Tabletus",
-          date: "2021",
-          role: "UX/UI Designer",
-          focus: "UX/UI Design, Prototyping",
-          overview:
-            "I have extensive experience working with Tabletus, a tablet management system. As a UX/UI Designer, I have been involved in designing and prototyping various features for Tabletus. My role includes creating intuitive user interfaces, conducting user research, and ensuring a seamless user experience. Working on Tabletus has allowed me to enhance my skills in UX/UI design and contribute to the success of the product.",
-        },
-      },
-      images: {
-        thumbnail: "/images/tablet/thumbnail.jpg",
-        artist: "/images/tablet/artist.jpg",
-        carry: "/images/tablet/carry.jpg",
-        collaboration: "/images/tablet/collaboration.jpg",
-        communication: "/images/tablet/communication.jpg",
-        handy: "/images/tablet/handy.jpg",
-        minimal: "/images/tablet/minimal.jpg",
-        reading: "/images/tablet/reading.jpg",
-        tablet: "/images/tablet/tablet.jpg",
+        baby: "/images/exercise/baby.jpg",
+        bike: "/images/exercise/bike.jpg",
+        carry: "/images/exercise/carry.jpg",
+        climb: "/images/exercise/climb.jpg",
+        dumb: "/images/exercise/dumb.jpg",
+        dumbbell: "/images/exercise/dumbbell.jpg",
+        run: "/images/exercise/run.jpg",
+        runinside: "/images/exercise/runinside.jpg",
+        runsolo: "/images/exercise/runsolo.jpg",
+        thumbnail: "/images/exercise/thumbnail.jpg",
       },
     },
   },
 ];
 
-type Data = {
+export type Data = {
   name: string;
   data: {
     text: Text;
     images: Image;
+    lowres?: Image;
   };
 };
 
-type Text = {
+export type Text = {
   name: string;
+  status: String;
   description: string;
   details: {
     client: string;
@@ -254,6 +327,6 @@ type Text = {
   };
 };
 
-type Image = {
+export type Image = {
   [key: string]: string;
 };

@@ -72,11 +72,11 @@
 
 .card_backdrop_title {
   position: absolute;
-  top: 32px;
-  left: 32px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
+  top: var(--size-fluid-2);
+  left: var(--size-fluid-2);
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-5);
+  color: var(--gray-0);
   opacity: 0;
 
   transition: opacity 0.2s linear;

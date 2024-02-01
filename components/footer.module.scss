@@ -1,0 +1,41 @@
+.footer {
+  height: max-content;
+  min-height: 1.5rem;
+  width: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 1rem;
+
+    span {
+      display: block;
+      color: var(--gray-7);
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--size-1);
+
+    li {
+      font-size: var(--font-size-1);
+      color: var(--gray-7);
+    }
+  }
+}
